@@ -13,7 +13,6 @@
  },
  "fenris": {
   "pet type": "fenris",
-  "group": 1,
   "warp": 1,
   "partysend": 1,
   "unsummon": 1,
@@ -44,7 +43,6 @@
  },
  "grizzly": {
   "pet type": "grizzly",
-  "group": 1,
   "warp": 1,
   "partysend": 1,
   "unsummon": 1,
@@ -69,6 +67,8 @@
   "micon2": "act3hireableicon",
   "mclass3": 561,
   "micon3": "barbhirable_icon",
+  "mclass4": 560,
+  "micon4": "barbhirable_icon",
   "lineNumber": 7
  },
  "hydra": {
@@ -152,7 +152,6 @@
  },
  "spiritwolf": {
   "pet type": "spiritwolf",
-  "group": 1,
   "warp": 1,
   "partysend": 1,
   "unsummon": 1,

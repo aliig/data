@@ -1,5 +1,6 @@
 {
  "0": {
+  "ItemType": "Any",
   "MaxSocketsLevelThreshold1": 25,
   "MaxSocketsLevelThreshold2": 40,
   "Rarity": 3
@@ -56,6 +57,7 @@
   "ItemType": "Bow Quiver",
   "Code": "bowq",
   "Equiv1": "misl",
+  "Equiv2": "seco",
   "Body": 1,
   "BodyLoc1": "rarm",
   "BodyLoc2": "larm",
@@ -72,6 +74,7 @@
   "ItemType": "Crossbow Quiver",
   "Code": "xboq",
   "Equiv1": "misl",
+  "Equiv2": "seco",
   "Body": 1,
   "BodyLoc1": "rarm",
   "BodyLoc2": "larm",
@@ -387,7 +390,7 @@
  "30": {
   "ItemType": "Sword",
   "Code": "swor",
-  "Equiv1": "mele",
+  "Equiv1": "blde",
   "Repair": 1,
   "Body": 1,
   "BodyLoc1": "rarm",
@@ -421,7 +424,7 @@
  "32": {
   "ItemType": "Knife",
   "Code": "knif",
-  "Equiv1": "mele",
+  "Equiv1": "blde",
   "Repair": 1,
   "Body": 1,
   "BodyLoc1": "rarm",
@@ -438,7 +441,7 @@
  "33": {
   "ItemType": "Spear",
   "Code": "spea",
-  "Equiv1": "mele",
+  "Equiv1": "sppl",
   "Repair": 1,
   "Body": 1,
   "BodyLoc1": "rarm",
@@ -455,7 +458,7 @@
  "34": {
   "ItemType": "Polearm",
   "Code": "pole",
-  "Equiv1": "mele",
+  "Equiv1": "sppl",
   "Repair": 1,
   "Body": 1,
   "BodyLoc1": "rarm",
@@ -1381,6 +1384,26 @@
   "MaxSocketsLevelThreshold2": 40,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1
+ },
+ "104": {
+  "ItemType": "Swords and Knives",
+  "Code": "blde",
+  "Equiv1": "mele",
+  "Rare": 1,
+  "MaxSocketsLevelThreshold1": 25,
+  "MaxSocketsLevelThreshold2": 40,
+  "Rarity": 3,
+  "expansion": 1
+ },
+ "105": {
+  "ItemType": "Spears and Polearms",
+  "Code": "sppl",
+  "Equiv1": "mele",
+  "Rare": 1,
+  "MaxSocketsLevelThreshold1": 25,
+  "MaxSocketsLevelThreshold2": 40,
+  "Rarity": 3,
   "expansion": 1
  }
 }

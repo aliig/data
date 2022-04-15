@@ -1707,7 +1707,7 @@
   "expansion": 1
  },
  "129": {
-  "description": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Basic Unique Weapon -> Exceptional Unique Weapon",
+  "description": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Unique Weapon -> Exceptional Unique Weapon",
   "enabled": 1,
   "version": 100,
   "numinputs": 4,
@@ -1722,7 +1722,7 @@
   "expansion": 1
  },
  "130": {
-  "description": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Basic Unique Armor -> Exceptional Unique Armor",
+  "description": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Unique Armor -> Exceptional Unique Armor",
   "enabled": 1,
   "version": 100,
   "numinputs": 4,
@@ -1767,7 +1767,7 @@
   "expansion": 1
  },
  "133": {
-  "description": "1 Ort Rune + 1 Amn Rune + 1 Perfect Sapphire + 1 Basic Rare Weapon -> Exceptional Rare Weapon",
+  "description": "1 Ort Rune + 1 Amn Rune + 1 Perfect Sapphire + 1 Normal Rare Weapon -> Exceptional Rare Weapon",
   "enabled": 1,
   "version": 100,
   "numinputs": 4,
@@ -1782,7 +1782,7 @@
   "expansion": 1
  },
  "134": {
-  "description": "1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + 1 Basic Rare Armor -> Exceptional Rare Armor",
+  "description": "1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + 1 Normal Rare Armor -> Exceptional Rare Armor",
   "enabled": 1,
   "version": 100,
   "numinputs": 4,
@@ -1988,6 +1988,70 @@
   "input 3": "bet",
   "input 4": "fed",
   "output": "toa",
+  "expansion": 1
+ },
+ "151": {
+  "description": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Set Weapon -> Exceptional Set Weapon",
+  "enabled": 1,
+  "ladder": 1,
+  "version": 100,
+  "numinputs": 4,
+  "input 1": "\"weap,bas,set\"",
+  "input 2": "r08",
+  "input 3": "r12",
+  "input 4": "gpg",
+  "output": "\"useitem,mod,exc\"",
+  "mod 1": "levelreq",
+  "mod 1 min": 5,
+  "mod 1 max": 5,
+  "expansion": 1
+ },
+ "152": {
+  "description": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Set Armor -> Exceptional Set Armor",
+  "enabled": 1,
+  "ladder": 1,
+  "version": 100,
+  "numinputs": 4,
+  "input 1": "\"armo,bas,set\"",
+  "input 2": "r07",
+  "input 3": "r13",
+  "input 4": "gpw",
+  "output": "\"useitem,mod,exc\"",
+  "mod 1": "levelreq",
+  "mod 1 min": 5,
+  "mod 1 max": 5,
+  "expansion": 1
+ },
+ "153": {
+  "description": "1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Set Weapon -> Elite Set Weapon",
+  "enabled": 1,
+  "ladder": 1,
+  "version": 100,
+  "numinputs": 4,
+  "input 1": "\"weap,exc,set\"",
+  "input 2": "r17",
+  "input 3": "r21",
+  "input 4": "gpg",
+  "output": "\"useitem,mod,eli\"",
+  "mod 1": "levelreq",
+  "mod 1 min": 7,
+  "mod 1 max": 7,
+  "expansion": 1
+ },
+ "154": {
+  "description": "1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Set Armor -> Elite Set Armor",
+  "enabled": 1,
+  "ladder": 1,
+  "version": 100,
+  "numinputs": 4,
+  "input 1": "\"armo,exc,set\"",
+  "input 2": "r18",
+  "input 3": "r20",
+  "input 4": "gpw",
+  "output": "\"useitem,mod,eli\"",
+  "mod 1": "levelreq",
+  "mod 1 min": 7,
+  "mod 1 max": 7,
   "expansion": 1
  }
 }

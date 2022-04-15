@@ -54,10 +54,25 @@
   "*Description": "The calc4 field value",
   "lineNumber": 58
  },
+ "clc5": {
+  "code": "clc5",
+  "*Description": "The calc5 field value",
+  "lineNumber": 88
+ },
+ "clc6": {
+  "code": "clc6",
+  "*Description": "The calc6 field value",
+  "lineNumber": 89
+ },
  "dm12": {
   "code": "dm12",
   "*Description": "((110 * lvl) * (par2 - par1)) / (100 * (lvl + 6)) + par1",
   "lineNumber": 1
+ },
+ "dm21": {
+  "code": "dm21",
+  "*Description": "((110 * lvl) * (pa12 - pa11)) / (100 * (lvl + 6)) + pa11",
+  "lineNumber": 87
  },
  "dm34": {
   "code": "dm34",
@@ -73,6 +88,11 @@
   "code": "dm78",
   "*Description": "((110 * lvl) * (par8 - par7)) / (100 * (lvl + 6)) + par7",
   "lineNumber": 7
+ },
+ "dm91": {
+  "code": "dm91",
+  "*Description": "((110 * lvl) * (pa10 - par9)) / (100 * (lvl + 6)) + par9",
+  "lineNumber": 85
  },
  "edln": {
   "code": "edln",
@@ -134,6 +154,11 @@
   "*Description": "par1 + (lvl - 1) * par2",
   "lineNumber": 0
  },
+ "ln21": {
+  "code": "ln21",
+  "*Description": "pa11 + (lvl - 1) * pa12",
+  "lineNumber": 86
+ },
  "ln34": {
   "code": "ln34",
   "*Description": "par3 + (lvl - 1) * par4",
@@ -148,6 +173,11 @@
   "code": "ln78",
   "*Description": "par7 + (lvl - 1) * par8",
   "lineNumber": 6
+ },
+ "ln91": {
+  "code": "ln91",
+  "*Description": "par9 + (lvl - 1) * pa10",
+  "lineNumber": 84
  },
  "lvl": {
   "code": "lvl",
@@ -254,6 +284,16 @@
   "*Description": "Mana Cost Calculation",
   "lineNumber": 21
  },
+ "manc": {
+  "code": "manc",
+  "*Description": "Throwing No Consume Mastery",
+  "lineNumber": 79
+ },
+ "mapi": {
+  "code": "mapi",
+  "*Description": "Throwing Pierce Mastery",
+  "lineNumber": 78
+ },
  "math": {
   "code": "math",
   "*Description": "Attack Rating (ToHit) Mastery",
@@ -273,6 +313,21 @@
   "code": "mps",
   "*Description": "Mana Cost Per Second Calculation",
   "lineNumber": 22
+ },
+ "pa10": {
+  "code": "pa10",
+  "*Description": "The Param10 field value",
+  "lineNumber": 81
+ },
+ "pa11": {
+  "code": "pa11",
+  "*Description": "The Param11 field value",
+  "lineNumber": 82
+ },
+ "pa12": {
+  "code": "pa12",
+  "*Description": "The Param12 field value",
+  "lineNumber": 83
  },
  "par1": {
   "code": "par1",
@@ -314,6 +369,11 @@
   "*Description": "The Param8 field value",
   "lineNumber": 15
  },
+ "par9": {
+  "code": "par9",
+  "*Description": "The Param9 field value",
+  "lineNumber": 80
+ },
  "pets": {
   "code": "pets",
   "*Description": "The petmax field value",
@@ -353,6 +413,11 @@
   "code": "pst5",
   "*Description": "The passivecalc5 field value",
   "lineNumber": 70
+ },
+ "pst6": {
+  "code": "pst6",
+  "*Description": "The passivecalc6 field value",
+  "lineNumber": 90
  },
  "pxma": {
   "code": "pxma",
