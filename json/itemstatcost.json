@@ -2313,7 +2313,8 @@
   "Stat": "skill_pierce",
   "*ID": 166,
   "Signed": 1,
-  "Send Bits": 12
+  "Send Bits": 12,
+  "Send Param Bits": 16
  },
  "167": {
   "Stat": "skill_conviction",
@@ -2440,14 +2441,20 @@
   "1.09-Save Bits": 14
  },
  "185": {
-  "Stat": "unused185",
+  "Stat": "bonus_mindamage",
   "*ID": 185,
-  "1.09-Save Bits": 14
+  "Signed": 1,
+  "Send Bits": 12,
+  "Save Bits": 8,
+  "damagerelated": 1
  },
  "186": {
-  "Stat": "unused186",
+  "Stat": "bonus_maxdamage",
   "*ID": 186,
-  "1.09-Save Bits": 14
+  "Signed": 1,
+  "Send Bits": 12,
+  "Save Bits": 8,
+  "damagerelated": 1
  },
  "187": {
   "Stat": "unused187",
@@ -2674,34 +2681,35 @@
   "descstrneg": "ModStre10d"
  },
  "205": {
-  "Stat": "unused205",
+  "Stat": "item_noconsume",
   "*ID": 205,
   "Signed": 1,
-  "Send Bits": 30,
-  "Encode": 3,
-  "Add": 401,
+  "Send Bits": 7,
+  "Add": 106,
   "Multiply": 256,
-  "1.09-Save Bits": 30
+  "Save Bits": 7,
+  "damagerelated": 1,
+  "descpriority": 4,
+  "descfunc": 19,
+  "descstrpos": "ModStr6j",
+  "descstrneg": "ModStr6j",
+  "advdisplay": 2
  },
  "206": {
-  "Stat": "unused206",
+  "Stat": "passive_mastery_noconsume",
   "*ID": 206,
   "Signed": 1,
-  "Send Bits": 30,
-  "Encode": 3,
-  "Add": 401,
-  "Multiply": 256,
-  "1.09-Save Bits": 30
+  "Send Bits": 9,
+  "Send Param Bits": 16,
+  "Save Bits": 8
  },
  "207": {
-  "Stat": "unused207",
-  "*ID": 207,
+  "Stat": "passive_mastery_replenish_oncrit",
+  "*ID": 206,
   "Signed": 1,
-  "Send Bits": 30,
-  "Encode": 3,
-  "Add": 401,
-  "Multiply": 256,
-  "1.09-Save Bits": 30
+  "Send Bits": 9,
+  "Send Param Bits": 16,
+  "Save Bits": 8
  },
  "208": {
   "Stat": "unused208",

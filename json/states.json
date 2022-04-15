@@ -131,6 +131,11 @@
   "overlay2": "berserkback",
   "lineNumber": 95
  },
+ "blademastery": {
+  "state": "blademastery",
+  "*ID": 74,
+  "lineNumber": 74
+ },
  "bladeshield": {
   "state": "bladeshield",
   "*ID": 158,
@@ -677,6 +682,11 @@
   "cltactivefunc": 90,
   "srvactivefunc": 145,
   "lineNumber": 144
+ },
+ "impale": {
+  "state": "impale",
+  "*ID": 188,
+  "lineNumber": 188
  },
  "increasedspeed": {
   "state": "increasedspeed",
@@ -1404,11 +1414,6 @@
   "*ID": 160,
   "nosend": 1,
   "lineNumber": 160
- },
- "swordmastery": {
-  "state": "swordmastery",
-  "*ID": 74,
-  "lineNumber": 74
  },
  "sync_warped": {
   "state": "sync_warped",

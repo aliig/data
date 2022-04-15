@@ -49,7 +49,12 @@
   "box12left": 436,
   "box12right": 465,
   "box12top": 378,
-  "box12bottom": 407
+  "box12bottom": 407,
+  "defaultItemTypeCol1": "hpot",
+  "defaultItemTypeCol2": "mpot",
+  "defaultItemTypeCol3": "rpot",
+  "defaultItemTypeCol4": "scro",
+  "defaultItemCodeCol4": "tsc"
  },
  "1": {
   "name": "sash",
@@ -85,7 +90,12 @@
   "box8left": 436,
   "box8right": 465,
   "box8top": 410,
-  "box8bottom": 439
+  "box8bottom": 439,
+  "defaultItemTypeCol1": "hpot",
+  "defaultItemTypeCol2": "mpot",
+  "defaultItemTypeCol3": "rpot",
+  "defaultItemTypeCol4": "scro",
+  "defaultItemCodeCol4": "tsc"
  },
  "2": {
   "name": "default",
@@ -105,7 +115,12 @@
   "box4left": 436,
   "box4right": 465,
   "box4top": 442,
-  "box4bottom": 471
+  "box4bottom": 471,
+  "defaultItemTypeCol1": "hpot",
+  "defaultItemTypeCol2": "mpot",
+  "defaultItemTypeCol3": "rpot",
+  "defaultItemTypeCol4": "scro",
+  "defaultItemCodeCol4": "tsc"
  },
  "3": {
   "name": "girdle",
@@ -173,7 +188,12 @@
   "box16left": 436,
   "box16right": 465,
   "box16top": 346,
-  "box16bottom": 375
+  "box16bottom": 375,
+  "defaultItemTypeCol1": "hpot",
+  "defaultItemTypeCol2": "mpot",
+  "defaultItemTypeCol3": "rpot",
+  "defaultItemTypeCol4": "scro",
+  "defaultItemCodeCol4": "tsc"
  },
  "4": {
   "name": "light belt",
@@ -209,7 +229,12 @@
   "box8left": 436,
   "box8right": 465,
   "box8top": 410,
-  "box8bottom": 439
+  "box8bottom": 439,
+  "defaultItemTypeCol1": "hpot",
+  "defaultItemTypeCol2": "mpot",
+  "defaultItemTypeCol3": "rpot",
+  "defaultItemTypeCol4": "scro",
+  "defaultItemCodeCol4": "tsc"
  },
  "5": {
   "name": "heavy belt",
@@ -261,7 +286,12 @@
   "box12left": 436,
   "box12right": 465,
   "box12top": 378,
-  "box12bottom": 407
+  "box12bottom": 407,
+  "defaultItemTypeCol1": "hpot",
+  "defaultItemTypeCol2": "mpot",
+  "defaultItemTypeCol3": "rpot",
+  "defaultItemTypeCol4": "scro",
+  "defaultItemCodeCol4": "tsc"
  },
  "6": {
   "name": "uber belt",
@@ -329,7 +359,12 @@
   "box16left": 436,
   "box16right": 465,
   "box16top": 346,
-  "box16bottom": 375
+  "box16bottom": 375,
+  "defaultItemTypeCol1": "hpot",
+  "defaultItemTypeCol2": "mpot",
+  "defaultItemTypeCol3": "rpot",
+  "defaultItemTypeCol4": "scro",
+  "defaultItemCodeCol4": "tsc"
  },
  "8": {
   "name": "belt2",
@@ -382,6 +417,11 @@
   "box12right": 545,
   "box12top": 498,
   "box12bottom": 527,
+  "defaultItemTypeCol1": "hpot",
+  "defaultItemTypeCol2": "mpot",
+  "defaultItemTypeCol3": "rpot",
+  "defaultItemTypeCol4": "scro",
+  "defaultItemCodeCol4": "tsc",
   "expansion": 1
  },
  "9": {
@@ -419,6 +459,11 @@
   "box8right": 545,
   "box8top": 530,
   "box8bottom": 559,
+  "defaultItemTypeCol1": "hpot",
+  "defaultItemTypeCol2": "mpot",
+  "defaultItemTypeCol3": "rpot",
+  "defaultItemTypeCol4": "scro",
+  "defaultItemCodeCol4": "tsc",
   "expansion": 1
  },
  "10": {
@@ -440,6 +485,11 @@
   "box4right": 545,
   "box4top": 562,
   "box4bottom": 591,
+  "defaultItemTypeCol1": "hpot",
+  "defaultItemTypeCol2": "mpot",
+  "defaultItemTypeCol3": "rpot",
+  "defaultItemTypeCol4": "scro",
+  "defaultItemCodeCol4": "tsc",
   "expansion": 1
  },
  "11": {
@@ -509,6 +559,11 @@
   "box16right": 545,
   "box16top": 466,
   "box16bottom": 495,
+  "defaultItemTypeCol1": "hpot",
+  "defaultItemTypeCol2": "mpot",
+  "defaultItemTypeCol3": "rpot",
+  "defaultItemTypeCol4": "scro",
+  "defaultItemCodeCol4": "tsc",
   "expansion": 1
  },
  "12": {
@@ -546,6 +601,11 @@
   "box8right": 545,
   "box8top": 530,
   "box8bottom": 559,
+  "defaultItemTypeCol1": "hpot",
+  "defaultItemTypeCol2": "mpot",
+  "defaultItemTypeCol3": "rpot",
+  "defaultItemTypeCol4": "scro",
+  "defaultItemCodeCol4": "tsc",
   "expansion": 1
  },
  "13": {
@@ -599,6 +659,11 @@
   "box12right": 545,
   "box12top": 498,
   "box12bottom": 527,
+  "defaultItemTypeCol1": "hpot",
+  "defaultItemTypeCol2": "mpot",
+  "defaultItemTypeCol3": "rpot",
+  "defaultItemTypeCol4": "scro",
+  "defaultItemCodeCol4": "tsc",
   "expansion": 1
  },
  "14": {
@@ -668,6 +733,11 @@
   "box16right": 545,
   "box16top": 466,
   "box16bottom": 495,
+  "defaultItemTypeCol1": "hpot",
+  "defaultItemTypeCol2": "mpot",
+  "defaultItemTypeCol3": "rpot",
+  "defaultItemTypeCol4": "scro",
+  "defaultItemCodeCol4": "tsc",
   "expansion": 1
  }
 }

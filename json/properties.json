@@ -2540,5 +2540,14 @@
   "*Max": "Max Class ID",
   "*Notes": "val1 = # of Skill levels",
   "expansion": 1
+ },
+ "269": {
+  "code": "noconsume",
+  "func1": 1,
+  "stat1": "item_noconsume",
+  "*Tooltip": "+# to not Consume Quantity",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1
  }
 }
