@@ -1,0 +1,216 @@
+{
+ "1": {
+  "type": "undead"
+ },
+ "2": {
+  "type": "demon"
+ },
+ "3": {
+  "type": "insect"
+ },
+ "4": {
+  "type": "human"
+ },
+ "5": {
+  "type": "construct"
+ },
+ "6": {
+  "type": "lowundead",
+  "equiv1": "undead"
+ },
+ "7": {
+  "type": "highundead",
+  "equiv1": "undead"
+ },
+ "8": {
+  "type": "skeleton",
+  "equiv1": "lowundead"
+ },
+ "9": {
+  "type": "zombie",
+  "equiv1": "lowundead"
+ },
+ "10": {
+  "type": "bighead",
+  "equiv1": "demon",
+  "strplur": "Afflicted"
+ },
+ "11": {
+  "type": "foulcrow"
+ },
+ "12": {
+  "type": "fallen",
+  "equiv1": "demon",
+  "strplur": "Fallen"
+ },
+ "13": {
+  "type": "brute",
+  "strplur": "Yeti"
+ },
+ "14": {
+  "type": "sandraider"
+ },
+ "15": {
+  "type": "wraith",
+  "equiv1": "undead"
+ },
+ "16": {
+  "type": "corruptrogue",
+  "equiv1": "demon"
+ },
+ "17": {
+  "type": "baboon"
+ },
+ "18": {
+  "type": "goatman",
+  "equiv1": "demon"
+ },
+ "19": {
+  "type": "quillrat"
+ },
+ "20": {
+  "type": "sandmaggot"
+ },
+ "21": {
+  "type": "clawviper",
+  "equiv1": "demon"
+ },
+ "22": {
+  "type": "sandleaper"
+ },
+ "23": {
+  "type": "pantherwoman"
+ },
+ "24": {
+  "type": "swarm",
+  "equiv1": "insect",
+  "strplur": "HellSwarm"
+ },
+ "25": {
+  "type": "scarab",
+  "equiv1": "insect"
+ },
+ "26": {
+  "type": "mummy",
+  "equiv1": "lowundead"
+ },
+ "27": {
+  "type": "unraveler",
+  "equiv1": "highundead"
+ },
+ "28": {
+  "type": "vulture"
+ },
+ "29": {
+  "type": "mosquito",
+  "equiv1": "insect"
+ },
+ "30": {
+  "type": "willowisp"
+ },
+ "31": {
+  "type": "arach",
+  "equiv1": "insect"
+ },
+ "32": {
+  "type": "thornhulk"
+ },
+ "33": {
+  "type": "vampire",
+  "equiv1": "highundead"
+ },
+ "34": {
+  "type": "batdemon"
+ },
+ "35": {
+  "type": "fetish",
+  "equiv1": "demon",
+  "strplur": "Fetish"
+ },
+ "36": {
+  "type": "blunderbore",
+  "equiv1": "demon"
+ },
+ "37": {
+  "type": "undeadfetish",
+  "equiv1": "lowundead",
+  "equiv2": "demon",
+  "strplur": "Undead Fetish"
+ },
+ "38": {
+  "type": "zakarum"
+ },
+ "39": {
+  "type": "frogdemon"
+ },
+ "40": {
+  "type": "tentacle"
+ },
+ "41": {
+  "type": "fingermage",
+  "equiv1": "lowundead"
+ },
+ "42": {
+  "type": "golem",
+  "equiv1": "construct"
+ },
+ "43": {
+  "type": "vilekind",
+  "equiv1": "demon"
+ },
+ "44": {
+  "type": "regurgitator",
+  "equiv1": "demon"
+ },
+ "45": {
+  "type": "doomknight",
+  "equiv1": "lowundead"
+ },
+ "46": {
+  "type": "councilmember",
+  "equiv1": "demon"
+ },
+ "47": {
+  "type": "megademon",
+  "equiv1": "demon"
+ },
+ "48": {
+  "type": "bovine"
+ },
+ "49": {
+  "type": "siegebeast"
+ },
+ "50": {
+  "type": "snowyeti",
+  "strplur": "Yeti"
+ },
+ "51": {
+  "type": "minion"
+ },
+ "52": {
+  "type": "succubus",
+  "equiv1": "demon"
+ },
+ "53": {
+  "type": "overseer",
+  "equiv1": "demon"
+ },
+ "54": {
+  "type": "imp",
+  "equiv1": "demon"
+ },
+ "55": {
+  "type": "frozenhorror"
+ },
+ "56": {
+  "type": "bloodlord",
+  "equiv1": "demon"
+ },
+ "57": {
+  "type": "deathmauler"
+ },
+ "58": {
+  "type": "putriddefiler",
+  "equiv1": "demon"
+ }
+}

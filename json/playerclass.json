@@ -1,0 +1,32 @@
+{
+ "0": {
+  "Player Class": "Amazon",
+  "Code": "ama"
+ },
+ "1": {
+  "Player Class": "Sorceress",
+  "Code": "sor"
+ },
+ "2": {
+  "Player Class": "Necromancer",
+  "Code": "nec"
+ },
+ "3": {
+  "Player Class": "Paladin",
+  "Code": "pal"
+ },
+ "4": {
+  "Player Class": "Barbarian",
+  "Code": "bar"
+ },
+ "6": {
+  "Player Class": "Druid",
+  "Code": "dru",
+  "expansion": 1
+ },
+ "7": {
+  "Player Class": "Assassin",
+  "Code": "ass",
+  "expansion": 1
+ }
+}

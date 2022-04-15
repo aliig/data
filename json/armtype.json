@@ -1,0 +1,14 @@
+{
+ "0": {
+  "Name": "Lite",
+  "Token": "lit"
+ },
+ "1": {
+  "Name": "Medium",
+  "Token": "med"
+ },
+ "2": {
+  "Name": "Heavy",
+  "Token": "hvy"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "0": {
+  "Store Page": "Armor Page",
+  "Code": "armo"
+ },
+ "1": {
+  "Store Page": "Weapons Page",
+  "Code": "weap"
+ },
+ "2": {
+  "Store Page": "Magic Page",
+  "Code": "mag"
+ },
+ "3": {
+  "Store Page": "Misc Page",
+  "Code": "misc"
+ }
+}

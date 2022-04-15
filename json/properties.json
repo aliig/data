@@ -1,0 +1,2544 @@
+{
+ "0": {
+  "code": "ac",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "armorclass",
+  "*Tooltip": "+# Defense",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "1": {
+  "code": "ac-miss",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "armorclass_vs_missile",
+  "*Tooltip": "+# Defense vs. Missile",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "2": {
+  "code": "ac-hth",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "armorclass_vs_hth",
+  "*Tooltip": "+# Defense vs. Melee",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "3": {
+  "code": "red-dmg",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "normal_damage_reduction",
+  "*Tooltip": "Damage Reduced by #",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "4": {
+  "code": "red-dmg%",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "damageresist",
+  "*Tooltip": "Damage Reduced by #%",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "5": {
+  "code": "ac%",
+  "*Enabled": 1,
+  "func1": 2,
+  "stat1": "item_armor_percent",
+  "*Tooltip": "+#% Enhanced Defense",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "6": {
+  "code": "red-mag",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "magic_damage_reduction",
+  "*Tooltip": "Magic Damage Reduced by #",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "7": {
+  "code": "str",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "strength",
+  "*Tooltip": "+# to Strength",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "8": {
+  "code": "dex",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "dexterity",
+  "*Tooltip": "+# to Dexterity",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "9": {
+  "code": "vit",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "vitality",
+  "*Tooltip": "+# to Vitality",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "10": {
+  "code": "enr",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "energy",
+  "*Tooltip": "+# to Energy",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "11": {
+  "code": "mana",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "maxmana",
+  "*Tooltip": "+# to Mana",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "12": {
+  "code": "mana%",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_maxmana_percent",
+  "*Tooltip": "Increase Maximum Mana #%",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "13": {
+  "code": "hp",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "maxhp",
+  "*Tooltip": "+# to Life",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "14": {
+  "code": "hp%",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_maxhp_percent",
+  "*Tooltip": "Increase Maximum Life #%",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "15": {
+  "code": "att",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "tohit",
+  "*Tooltip": "+# to Attack Rating",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "16": {
+  "code": "block",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "toblock",
+  "*Tooltip": "#% Increased Chance of Blocking",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "17": {
+  "code": "cold-min",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "coldmindam",
+  "*Tooltip": "+# to Minimum Cold Damage",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "18": {
+  "code": "cold-max",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "coldmaxdam",
+  "*Tooltip": "+# to Maximum Cold Damage",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "19": {
+  "code": "cold-len",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "coldlength",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "# of Frames (25 Frames = 1 Second)"
+ },
+ "20": {
+  "code": "fire-min",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "firemindam",
+  "*Tooltip": "+# to Minimum Fire Damage",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "21": {
+  "code": "fire-max",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "firemaxdam",
+  "*Tooltip": "+# to Maximum Fire Damage",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "22": {
+  "code": "ltng-min",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "lightmindam",
+  "*Tooltip": "+# to Minimum Lightning Damage",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "23": {
+  "code": "ltng-max",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "lightmaxdam",
+  "*Tooltip": "+# to Maximum Lightning Damage",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "24": {
+  "code": "pois-min",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "poisonmindam",
+  "*Tooltip": "+# to Minimum Poison Damage",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "25": {
+  "code": "pois-max",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "poisonmaxdam",
+  "*Tooltip": "+# to Maximum Poison Damage",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "26": {
+  "code": "pois-len",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "poisonlength",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "# of Frames (25 Frames = 1 Second)"
+ },
+ "27": {
+  "code": "dmg-min",
+  "*Enabled": 1,
+  "func1": 5,
+  "*Tooltip": "+# to Minimum Damage",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "28": {
+  "code": "dmg-max",
+  "*Enabled": 1,
+  "func1": 6,
+  "*Tooltip": "+# to Maximum Damage",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "29": {
+  "code": "dmg%",
+  "*Enabled": 1,
+  "func1": 7,
+  "*Tooltip": "+#% Enhanced Damage",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "30": {
+  "code": "dmg-to-mana",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_damagetomana",
+  "*Tooltip": "#% Damage Taken Goes To Mana",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "31": {
+  "code": "res-fire",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "fireresist",
+  "*Tooltip": "Fire Resist +#%",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "32": {
+  "code": "res-fire-max",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "maxfireresist",
+  "*Tooltip": "+#% to Maximum Fire Resist",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "33": {
+  "code": "res-ltng",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "lightresist",
+  "*Tooltip": "Lightning Resist +#%",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "34": {
+  "code": "res-ltng-max",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "maxlightresist",
+  "*Tooltip": "+#% to Maximum Lightning Resist",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "35": {
+  "code": "res-cold",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "coldresist",
+  "*Tooltip": "Cold Resist +#%",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "36": {
+  "code": "res-cold-max",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "maxcoldresist",
+  "*Tooltip": "+#% to Maximum Cold Resist",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "37": {
+  "code": "res-mag",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "magicresist",
+  "*Tooltip": "Magic Resist +#%",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "38": {
+  "code": "res-mag-max",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "maxmagicresist",
+  "*Tooltip": "+#% to Maximum Magic Resist",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "39": {
+  "code": "res-pois",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "poisonresist",
+  "*Tooltip": "Poison Resist +#%",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "40": {
+  "code": "res-pois-max",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "maxpoisonresist",
+  "*Tooltip": "+#% to Maximum Poison Resist",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "41": {
+  "code": "res-all",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "fireresist",
+  "func2": 3,
+  "stat2": "lightresist",
+  "func3": 3,
+  "stat3": "coldresist",
+  "func4": 3,
+  "stat4": "poisonresist",
+  "*Tooltip": "All Resistances +#",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "42": {
+  "code": "res-all-max",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "maxfireresist",
+  "func2": 3,
+  "stat2": "maxlightresist",
+  "func3": 3,
+  "stat3": "maxcoldresist",
+  "func4": 3,
+  "stat4": "maxpoisonresist",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "*Notes": "Currently Not Used"
+ },
+ "43": {
+  "code": "abs-fire%",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_absorbfire_percent",
+  "*Tooltip": "+# Fire Absorb",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "44": {
+  "code": "abs-fire",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_absorbfire",
+  "*Tooltip": "Fire Absorb #%",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "45": {
+  "code": "abs-ltng%",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_absorblight_percent",
+  "*Tooltip": "+# Lightning Absorb",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "46": {
+  "code": "abs-ltng",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_absorblight",
+  "*Tooltip": "Lightning Absorb #%",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "47": {
+  "code": "abs-mag%",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_absorbmagic_percent",
+  "*Tooltip": "+# Magic Absorb",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "48": {
+  "code": "abs-mag",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_absorbmagic",
+  "*Tooltip": "Magic Absorb #%",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "49": {
+  "code": "abs-cold%",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_absorbcold_percent",
+  "*Tooltip": "+# Cold Absorb",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "50": {
+  "code": "abs-cold",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_absorbcold",
+  "*Tooltip": "Cold Absorb #%",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "51": {
+  "code": "dur",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "maxdurability",
+  "*Tooltip": "Durability: # of #",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "52": {
+  "code": "dur%",
+  "*Enabled": 1,
+  "func1": 13,
+  "stat1": "item_maxdurability_percent",
+  "*Tooltip": "Increase Maximum Durability #%",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "53": {
+  "code": "regen",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "hpregen",
+  "*Tooltip": "Replenish Life +#",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "54": {
+  "code": "thorns",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_attackertakesdamage",
+  "*Tooltip": "Attacker Takes Damage of #",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "55": {
+  "code": "swing1",
+  "*Enabled": 1,
+  "func1": 8,
+  "stat1": "item_fasterattackrate",
+  "*Tooltip": "+#% Increased Attack Speed",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "56": {
+  "code": "swing2",
+  "*Enabled": 1,
+  "func1": 8,
+  "stat1": "item_fasterattackrate",
+  "*Tooltip": "+#% Increased Attack Speed",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "57": {
+  "code": "swing3",
+  "*Enabled": 1,
+  "func1": 8,
+  "stat1": "item_fasterattackrate",
+  "*Tooltip": "+#% Increased Attack Speed",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "58": {
+  "code": "gold%",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_goldbonus",
+  "*Tooltip": "#% Extra Gold from Monsters",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "59": {
+  "code": "mag%",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_magicbonus",
+  "*Tooltip": "#% Better Chance of Getting Magic Items",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "60": {
+  "code": "knock",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_knockback",
+  "*Tooltip": "Knockback",
+  "*Min": 1,
+  "*Max": 1
+ },
+ "61": {
+  "code": "regen-stam",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "staminarecoverybonus",
+  "*Tooltip": "Heal Stamina Plus #%",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "62": {
+  "code": "regen-mana",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "manarecoverybonus",
+  "*Tooltip": "Regenerate Mana #%",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "63": {
+  "code": "stam",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "maxstamina",
+  "*Tooltip": "+# Maximum Stamina",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "64": {
+  "code": "time",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_timeduration",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "Currently Not Used"
+ },
+ "65": {
+  "code": "manasteal",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "manadrainmindam",
+  "*Tooltip": "#% Mana stolen per hit",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "66": {
+  "code": "lifesteal",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "lifedrainmindam",
+  "*Tooltip": "#% Life stolen per hit",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "67": {
+  "code": "ama",
+  "*Enabled": 1,
+  "func1": 21,
+  "stat1": "item_addclassskills",
+  "*Tooltip": "+# to Amazon Skill Levels",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "68": {
+  "code": "pal",
+  "*Enabled": 1,
+  "func1": 21,
+  "stat1": "item_addclassskills",
+  "val1": 3,
+  "*Tooltip": "+# to Paladin Skill Levels",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "69": {
+  "code": "nec",
+  "*Enabled": 1,
+  "func1": 21,
+  "stat1": "item_addclassskills",
+  "val1": 2,
+  "*Tooltip": "+# to Necromancer Skill Levels",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "70": {
+  "code": "sor",
+  "*Enabled": 1,
+  "func1": 21,
+  "stat1": "item_addclassskills",
+  "val1": 1,
+  "*Tooltip": "+# to Sorceress Skill Levels",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "71": {
+  "code": "bar",
+  "*Enabled": 1,
+  "func1": 21,
+  "stat1": "item_addclassskills",
+  "val1": 4,
+  "*Tooltip": "+#  to Barbarian Skill Levels",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "72": {
+  "code": "herb",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_doubleherbduration",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "Currently Not Used"
+ },
+ "73": {
+  "code": "light",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_lightradius",
+  "*Tooltip": "+# to Light Radius",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "74": {
+  "code": "color",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_lightcolor",
+  "set1": 1,
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "Currently Not Used"
+ },
+ "75": {
+  "code": "ease",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_req_percent",
+  "*Tooltip": "Requirements -#%",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "76": {
+  "code": "move1",
+  "*Enabled": 1,
+  "func1": 8,
+  "stat1": "item_fastermovevelocity",
+  "*Tooltip": "+#% Faster Run/Walk",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "77": {
+  "code": "move2",
+  "*Enabled": 1,
+  "func1": 8,
+  "stat1": "item_fastermovevelocity",
+  "*Tooltip": "+#% Faster Run/Walk",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "78": {
+  "code": "move3",
+  "*Enabled": 1,
+  "func1": 8,
+  "stat1": "item_fastermovevelocity",
+  "*Tooltip": "+#% Faster Run/Walk",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "79": {
+  "code": "balance1",
+  "*Enabled": 1,
+  "func1": 8,
+  "stat1": "item_fastergethitrate",
+  "*Tooltip": "+#% Faster Hit Recovery",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "80": {
+  "code": "balance2",
+  "*Enabled": 1,
+  "func1": 8,
+  "stat1": "item_fastergethitrate",
+  "*Tooltip": "+#% Faster Hit Recovery",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "81": {
+  "code": "balance3",
+  "*Enabled": 1,
+  "func1": 8,
+  "stat1": "item_fastergethitrate",
+  "*Tooltip": "+#% Faster Hit Recovery",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "82": {
+  "code": "block1",
+  "*Enabled": 1,
+  "func1": 8,
+  "stat1": "item_fasterblockrate",
+  "*Tooltip": "+#% Faster Block Rate",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "83": {
+  "code": "block2",
+  "*Enabled": 1,
+  "func1": 8,
+  "stat1": "item_fasterblockrate",
+  "*Tooltip": "+#% Faster Block Rate",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "84": {
+  "code": "block3",
+  "*Enabled": 1,
+  "func1": 8,
+  "stat1": "item_fasterblockrate",
+  "*Tooltip": "+#% Faster Block Rate",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "85": {
+  "code": "cast1",
+  "*Enabled": 1,
+  "func1": 8,
+  "stat1": "item_fastercastrate",
+  "*Tooltip": "+#% Faster Cast Rate",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "86": {
+  "code": "cast2",
+  "*Enabled": 1,
+  "func1": 8,
+  "stat1": "item_fastercastrate",
+  "*Tooltip": "+#% Faster Cast Rate",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "87": {
+  "code": "cast3",
+  "*Enabled": 1,
+  "func1": 8,
+  "stat1": "item_fastercastrate",
+  "*Tooltip": "+#% Faster Cast Rate",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "88": {
+  "code": "res-pois-len",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_poisonlengthresist",
+  "*Tooltip": "Poison Length Reduced by #%",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "89": {
+  "code": "dmg",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_normaldamage",
+  "*Tooltip": "Damage +#",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "90": {
+  "code": "howl",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_howl",
+  "*Tooltip": "Hit Causes Monster to Flee #%",
+  "*Min": "Min %/128",
+  "*Max": "Max %/128"
+ },
+ "91": {
+  "code": "stupidity",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_stupidity",
+  "*Tooltip": "Hit Blinds Target +#",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "92": {
+  "code": "ignore-ac",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_ignoretargetac",
+  "*Tooltip": "Ignore Target's Defense",
+  "*Min": 1,
+  "*Max": 1
+ },
+ "93": {
+  "code": "reduce-ac",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_fractionaltargetac",
+  "*Tooltip": "-#% Target Defense",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "94": {
+  "code": "noheal",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_preventheal",
+  "*Tooltip": "Prevent Monster Heal",
+  "*Min": 1,
+  "*Max": 1
+ },
+ "95": {
+  "code": "half-freeze",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_halffreezeduration",
+  "*Tooltip": "Half Freeze Duration",
+  "*Min": 1,
+  "*Max": 1
+ },
+ "96": {
+  "code": "att%",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_tohit_percent",
+  "*Tooltip": "#% Bonus to Attack Rating",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "97": {
+  "code": "dmg-ac",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_damagetargetac",
+  "*Tooltip": "-# to Monster Defense Per Hit",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "98": {
+  "code": "dmg-demon",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_demondamage_percent",
+  "*Tooltip": "+#% Damage to Demons",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "99": {
+  "code": "dmg-undead",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_undeaddamage_percent",
+  "*Tooltip": "+#% Damage to Undead",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "100": {
+  "code": "att-demon",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_demon_tohit",
+  "*Tooltip": "+# to Attack Rating against Demons",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "101": {
+  "code": "att-undead",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_undead_tohit",
+  "*Tooltip": "+# to Attack Rating against Undead",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "102": {
+  "code": "throw",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_throwable",
+  "*Min": 1,
+  "*Max": 1,
+  "*Notes": "Currently Not Used"
+ },
+ "103": {
+  "code": "fireskill",
+  "*Enabled": 1,
+  "func1": 21,
+  "stat1": "item_elemskill",
+  "val1": 1,
+  "*Tooltip": "+# to Fire Skills",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "104": {
+  "code": "allskills",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_allskills",
+  "*Tooltip": "+# to All Skills",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "105": {
+  "code": "light-thorns",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_attackertakeslightdamage",
+  "*Tooltip": "Attacker Takes Lightning Damage of #",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "106": {
+  "code": "freeze",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_freeze",
+  "*Tooltip": "Freezes Target +#",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "107": {
+  "code": "openwounds",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_openwounds",
+  "*Tooltip": "#% Chance of Open Wounds",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "108": {
+  "code": "crush",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_crushingblow",
+  "*Tooltip": "#% Chance of Crushing Blow",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "109": {
+  "code": "kick",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_kickdamage",
+  "*Tooltip": "+# Kick Damage",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "110": {
+  "code": "mana-kill",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_manaafterkill",
+  "*Tooltip": "+# to Mana after each Kill",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "111": {
+  "code": "demon-heal",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_healafterdemonkill",
+  "*Tooltip": "+# Life after each Demon Kill",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "112": {
+  "code": "bloody",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_extrablood",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "Visuals Only"
+ },
+ "113": {
+  "code": "deadly",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_deadlystrike",
+  "*Tooltip": "#% Deadly Strike",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "114": {
+  "code": "slow",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_slow",
+  "*Tooltip": "Slows Target by #%",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "115": {
+  "code": "nofreeze",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_cannotbefrozen",
+  "*Tooltip": "Cannot Be Frozen",
+  "*Min": 1,
+  "*Max": 1
+ },
+ "116": {
+  "code": "stamdrain",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_staminadrainpct",
+  "*Tooltip": "#% Slower Stamina Drain",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "117": {
+  "code": "reanimate",
+  "*Enabled": 1,
+  "func1": 24,
+  "stat1": "item_reanimate",
+  "*Tooltip": "Reanimate As: [Returned]",
+  "*Parameter": "monstats.txt hcIdx",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "118": {
+  "code": "pierce",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_pierce",
+  "*Tooltip": "Piercing Attack",
+  "*Min": "Min %",
+  "*Max": "Max %"
+ },
+ "119": {
+  "code": "magicarrow",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_magicarrow",
+  "*Tooltip": "Fires Magic Arrows",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "120": {
+  "code": "explosivearrow",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_explosivearrow",
+  "*Tooltip": "Fires Explosive Arrows or Bolts",
+  "*Min": "Min #",
+  "*Max": "Max #"
+ },
+ "122": {
+  "code": "dru",
+  "*Enabled": 1,
+  "func1": 21,
+  "stat1": "item_addclassskills",
+  "val1": 5,
+  "*Tooltip": "+# to Druid Skill Levels",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "expansion": 1
+ },
+ "123": {
+  "code": "ass",
+  "*Enabled": 1,
+  "func1": 21,
+  "stat1": "item_addclassskills",
+  "val1": 6,
+  "*Tooltip": "+# to Assassin Skill Levels",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "expansion": 1
+ },
+ "124": {
+  "code": "skill",
+  "*Enabled": 1,
+  "func1": 22,
+  "stat1": "item_singleskill",
+  "*Tooltip": "+# to [Skill] ([Class] only)",
+  "*Parameter": "Skill",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "expansion": 1
+ },
+ "125": {
+  "code": "skilltab",
+  "*Enabled": 1,
+  "func1": 10,
+  "stat1": "item_addskill_tab",
+  "*Tooltip": "+# to [Class Skill Tab] Skills",
+  "*Parameter": "Class Skill Tab ID",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"[Class Skill Tab ID] = (Amazon = 0-2, Sorceress = 3-5, Necromancer = 6-8, Paladin = 9-11, Barbarian = 12-14, Druid = 15-17,  Assassin = 18-20)\"",
+  "expansion": 1
+ },
+ "126": {
+  "code": "aura",
+  "*Enabled": 1,
+  "func1": 22,
+  "stat1": "item_aura",
+  "*Tooltip": "Level # [Skill] Aura When Equipped",
+  "*Parameter": "Skill",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "expansion": 1
+ },
+ "127": {
+  "code": "att-skill",
+  "*Enabled": 1,
+  "func1": 11,
+  "stat1": "item_skillonattack",
+  "*Tooltip": "#% Chance to cast level # [Skill] on attack",
+  "*Parameter": "Skill",
+  "*Min": "\"% Chance (If 0, then default to 5)\"",
+  "*Max": "Skill Level",
+  "expansion": 1
+ },
+ "128": {
+  "code": "hit-skill",
+  "*Enabled": 1,
+  "func1": 11,
+  "stat1": "item_skillonhit",
+  "*Tooltip": "#% Chance to cast level # [Skill] on striking",
+  "*Parameter": "Skill",
+  "*Min": "\"% Chance (If 0, then default to 5)\"",
+  "*Max": "Skill Level",
+  "expansion": 1
+ },
+ "129": {
+  "code": "gethit-skill",
+  "*Enabled": 1,
+  "func1": 11,
+  "stat1": "item_skillongethit",
+  "*Tooltip": "#% Chance to cast level # [Skill] when struck",
+  "*Parameter": "Skill",
+  "*Min": "\"% Chance (If 0, then default to 5)\"",
+  "*Max": "Skill Level",
+  "expansion": 1
+ },
+ "130": {
+  "code": "gembonus",
+  "expansion": 1
+ },
+ "131": {
+  "code": "regen-dur",
+  "expansion": 1
+ },
+ "132": {
+  "code": "fire-fx",
+  "expansion": 1
+ },
+ "133": {
+  "code": "ltng-fx",
+  "expansion": 1
+ },
+ "134": {
+  "code": "sock",
+  "*Enabled": 1,
+  "func1": 14,
+  "stat1": "item_numsockets",
+  "*Tooltip": "Socketed (#)",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "expansion": 1
+ },
+ "135": {
+  "code": "dmg-fire",
+  "*Enabled": 1,
+  "func1": 15,
+  "stat1": "firemindam",
+  "func2": 16,
+  "stat2": "firemaxdam",
+  "*Tooltip": "Adds #-# Fire Damage",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "expansion": 1
+ },
+ "136": {
+  "code": "dmg-ltng",
+  "*Enabled": 1,
+  "func1": 15,
+  "stat1": "lightmindam",
+  "func2": 16,
+  "stat2": "lightmaxdam",
+  "*Tooltip": "Adds #-# Lightning Damage",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "expansion": 1
+ },
+ "137": {
+  "code": "dmg-mag",
+  "*Enabled": 1,
+  "func1": 15,
+  "stat1": "magicmindam",
+  "func2": 16,
+  "stat2": "magicmaxdam",
+  "*Tooltip": "Adds #-# Magic Damage",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "expansion": 1
+ },
+ "138": {
+  "code": "dmg-cold",
+  "*Enabled": 1,
+  "func1": 15,
+  "stat1": "coldmindam",
+  "func2": 16,
+  "stat2": "coldmaxdam",
+  "func3": 17,
+  "stat3": "coldlength",
+  "*Tooltip": "Adds #-# Cold Damage",
+  "*Parameter": "Length (Frames)",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "# of Frames (25 Frames = 1 Second)",
+  "expansion": 1
+ },
+ "139": {
+  "code": "dmg-pois",
+  "*Enabled": 1,
+  "func1": 15,
+  "stat1": "poisonmindam",
+  "func2": 16,
+  "stat2": "poisonmaxdam",
+  "func3": 17,
+  "stat3": "poisonlength",
+  "*Tooltip": "Adds #-# Poison Damage Over # Seconds",
+  "*Parameter": "Length (Frames)",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "# of Frames (25 Frames = 1 Second)",
+  "expansion": 1
+ },
+ "140": {
+  "code": "dmg-throw",
+  "*Enabled": 1,
+  "func1": 15,
+  "stat1": "item_throw_mindamage",
+  "func2": 16,
+  "stat2": "item_throw_maxdamage",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "Currently Not Used",
+  "expansion": 1
+ },
+ "141": {
+  "code": "dmg-norm",
+  "*Enabled": 1,
+  "func1": 15,
+  "stat1": "mindamage",
+  "func2": 16,
+  "stat2": "maxdamage",
+  "*Tooltip": "Adds #-# Damage",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "expansion": 1
+ },
+ "142": {
+  "code": "ac/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_armor_perlevel",
+  "*Tooltip": "+# Defense (Based on Character Level)",
+  "*Parameter": "ac/lvl (8ths)",
+  "expansion": 1
+ },
+ "143": {
+  "code": "ac%/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_armorpercent_perlevel",
+  "*Tooltip": "+#% Enhanced Defense (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "144": {
+  "code": "hp/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_hp_perlevel",
+  "*Tooltip": "+# to Life (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "145": {
+  "code": "mana/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_mana_perlevel",
+  "*Tooltip": "+# to Mana (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "146": {
+  "code": "dmg/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_maxdamage_perlevel",
+  "*Tooltip": "+# to Maximum Damage (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "147": {
+  "code": "dmg%/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_maxdamage_percent_perlevel",
+  "*Tooltip": "+#% Enhanced Maximum Damage (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "148": {
+  "code": "str/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_strength_perlevel",
+  "*Tooltip": "+# to Strength (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "149": {
+  "code": "dex/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_dexterity_perlevel",
+  "*Tooltip": "+# to Dexterity (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "150": {
+  "code": "enr/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_energy_perlevel",
+  "*Tooltip": "+# to Energy (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "*Notes": "Currently Not Used",
+  "expansion": 1
+ },
+ "151": {
+  "code": "vit/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_vitality_perlevel",
+  "*Tooltip": "+# to Vitality (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "152": {
+  "code": "att/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_tohit_perlevel",
+  "*Tooltip": "+# to Attack Rating (Based on Character Level)",
+  "*Parameter": "#/2 per Level",
+  "expansion": 1
+ },
+ "153": {
+  "code": "att%/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_tohitpercent_perlevel",
+  "*Tooltip": "#% Bonus to Attack Rating (Based on Character Level)",
+  "*Parameter": "#/2 per Level",
+  "expansion": 1
+ },
+ "154": {
+  "code": "dmg-cold/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_cold_damagemax_perlevel",
+  "*Tooltip": "+# to Maximum Cold Damage (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "*Notes": "Currently Not Used",
+  "expansion": 1
+ },
+ "155": {
+  "code": "dmg-fire/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_fire_damagemax_perlevel",
+  "*Tooltip": "+# to Maximum Fire Damage (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "*Notes": "Currently Not Used",
+  "expansion": 1
+ },
+ "156": {
+  "code": "dmg-ltng/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_ltng_damagemax_perlevel",
+  "*Tooltip": "+# to Maximum Lightning Damage (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "*Notes": "Currently Not Used",
+  "expansion": 1
+ },
+ "157": {
+  "code": "dmg-pois/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_pois_damagemax_perlevel",
+  "*Tooltip": "+# to Maximum Poison Damage (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "*Notes": "Currently Not Used",
+  "expansion": 1
+ },
+ "158": {
+  "code": "res-cold/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_resist_cold_perlevel",
+  "*Tooltip": "Cold Resist +#% (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "159": {
+  "code": "res-fire/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_resist_fire_perlevel",
+  "*Tooltip": "Fire Resist +#% (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "160": {
+  "code": "res-ltng/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_resist_ltng_perlevel",
+  "*Tooltip": "Lightning Resist +#% (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "161": {
+  "code": "res-pois/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_resist_pois_perlevel",
+  "*Tooltip": "Poison Resist +#% (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "162": {
+  "code": "abs-cold/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_absorb_cold_perlevel",
+  "*Tooltip": "Absorbs Cold Damage (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "163": {
+  "code": "abs-fire/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_absorb_fire_perlevel",
+  "*Tooltip": "Absorbs Fire Damage (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "164": {
+  "code": "abs-ltng/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_absorb_ltng_perlevel",
+  "*Tooltip": "Absorbs Lightning Damage (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "*Notes": "Currently Not Used",
+  "expansion": 1
+ },
+ "165": {
+  "code": "abs-pois/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_absorb_pois_perlevel",
+  "*Tooltip": "Absorbs Poison Damage (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "*Notes": "Currently Not Used",
+  "expansion": 1
+ },
+ "166": {
+  "code": "thorns/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_thorns_perlevel",
+  "*Tooltip": "Attacker Takes Damage of # (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "167": {
+  "code": "gold%/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_find_gold_perlevel",
+  "*Tooltip": "#% Extra Gold from Monsters (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "168": {
+  "code": "mag%/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_find_magic_perlevel",
+  "*Tooltip": "#% Better Chance of Getting Magic Items (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "169": {
+  "code": "regen-stam/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_regenstamina_perlevel",
+  "*Tooltip": "Heal Stamina Plus #% (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "170": {
+  "code": "stam/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_stamina_perlevel",
+  "*Tooltip": "+# Maximum Stamina (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "171": {
+  "code": "dmg-dem/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_damage_demon_perlevel",
+  "*Tooltip": "+#% Damage to Demons (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "172": {
+  "code": "dmg-und/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_damage_undead_perlevel",
+  "*Tooltip": "+#% Damage to Undead (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "173": {
+  "code": "att-dem/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_tohit_demon_perlevel",
+  "*Tooltip": "+# to Attack Rating against Demons (Based on Character Level)",
+  "*Parameter": "#/2 per Level",
+  "expansion": 1
+ },
+ "174": {
+  "code": "att-und/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_tohit_undead_perlevel",
+  "*Tooltip": "+# to Attack Rating against Undead (Based on Character Level)",
+  "*Parameter": "#/2 per Level",
+  "expansion": 1
+ },
+ "175": {
+  "code": "crush/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_crushingblow_perlevel",
+  "*Tooltip": "#% Chance of Crushing Blow (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "*Notes": "Currently Not Used",
+  "expansion": 1
+ },
+ "176": {
+  "code": "wounds/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_openwounds_perlevel",
+  "*Tooltip": "#% Chance of Open Wounds (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "*Notes": "Currently Not Used",
+  "expansion": 1
+ },
+ "177": {
+  "code": "kick/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_kick_damage_perlevel",
+  "*Tooltip": "+# Kick Damage (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "*Notes": "Currently Not Used",
+  "expansion": 1
+ },
+ "178": {
+  "code": "deadly/lvl",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_deadlystrike_perlevel",
+  "*Tooltip": "#% Deadly Strike (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "expansion": 1
+ },
+ "179": {
+  "code": "gems%/lvl",
+  "expansion": 1
+ },
+ "180": {
+  "code": "rep-dur",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_replenish_durability",
+  "*Tooltip": "Repairs 1 durability in # seconds",
+  "*Parameter": "Repair Speed",
+  "*Notes": "Repair 1 Durability every 100/[Repair Speed] seconds",
+  "expansion": 1
+ },
+ "181": {
+  "code": "rep-quant",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_replenish_quantity",
+  "*Tooltip": "Replenishes quantity",
+  "*Parameter": "Repair Speed",
+  "*Notes": "Replenish 1 Quantity every 100/[Repair Speed] seconds",
+  "expansion": 1
+ },
+ "182": {
+  "code": "stack",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_extra_stack",
+  "*Tooltip": "Increased Stack Size",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "expansion": 1
+ },
+ "183": {
+  "code": "item%",
+  "expansion": 1
+ },
+ "184": {
+  "code": "dmg-slash",
+  "expansion": 1
+ },
+ "185": {
+  "code": "dmg-slash%",
+  "expansion": 1
+ },
+ "186": {
+  "code": "dmg-crush",
+  "expansion": 1
+ },
+ "187": {
+  "code": "dmg-crush%",
+  "expansion": 1
+ },
+ "188": {
+  "code": "dmg-thrust",
+  "expansion": 1
+ },
+ "189": {
+  "code": "dmg-thrust%",
+  "expansion": 1
+ },
+ "190": {
+  "code": "abs-slash",
+  "expansion": 1
+ },
+ "191": {
+  "code": "abs-crush",
+  "expansion": 1
+ },
+ "192": {
+  "code": "abs-thrust",
+  "expansion": 1
+ },
+ "193": {
+  "code": "abs-slash%",
+  "expansion": 1
+ },
+ "194": {
+  "code": "abs-crush%",
+  "expansion": 1
+ },
+ "195": {
+  "code": "abs-thrust%",
+  "expansion": 1
+ },
+ "196": {
+  "code": "ac/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_armor_bytime",
+  "*Tooltip": "+# Defense (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "197": {
+  "code": "ac%/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_armorpercent_bytime",
+  "*Tooltip": "+#% Enhanced Defense (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "198": {
+  "code": "hp/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_hp_bytime",
+  "*Tooltip": "+# to Life (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "199": {
+  "code": "mana/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_mana_bytime",
+  "*Tooltip": "+# to Mana (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "200": {
+  "code": "dmg/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_maxdamage_bytime",
+  "*Tooltip": "+# to Maximum Damage (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "201": {
+  "code": "dmg%/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_maxdamage_percent_bytime",
+  "*Tooltip": "+#% Enhanced Maximum Damage (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "202": {
+  "code": "str/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_strength_bytime",
+  "*Tooltip": "+# to Strength (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "203": {
+  "code": "dex/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_dexterity_bytime",
+  "*Tooltip": "+# to Dexterity (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "204": {
+  "code": "enr/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_energy_bytime",
+  "*Tooltip": "+# to Energy (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "205": {
+  "code": "vit/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_vitality_bytime",
+  "*Tooltip": "+# to Vitality (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "206": {
+  "code": "att/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_tohit_bytime",
+  "*Tooltip": "+# to Attack Rating (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "207": {
+  "code": "att%/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_tohitpercent_bytime",
+  "*Tooltip": "#% Bonus to Attack Rating (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "208": {
+  "code": "dmg-cold/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_cold_damagemax_bytime",
+  "*Tooltip": "+# to Maximum Cold Damage (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "209": {
+  "code": "dmg-fire/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_fire_damagemax_bytime",
+  "*Tooltip": "+# to Maximum Fire Damage (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "210": {
+  "code": "dmg-ltng/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_ltng_damagemax_bytime",
+  "*Tooltip": "+# to Maximum Lightning Damage (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "211": {
+  "code": "dmg-pois/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_pois_damagemax_bytime",
+  "*Tooltip": "+# to Maximum Poison Damage (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "212": {
+  "code": "res-cold/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_resist_cold_bytime",
+  "*Tooltip": "Cold Resist +#% (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "213": {
+  "code": "res-fire/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_resist_fire_bytime",
+  "*Tooltip": "Fire Resist +#% (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "214": {
+  "code": "res-ltng/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_resist_ltng_bytime",
+  "*Tooltip": "Lightning Resist +#% (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "215": {
+  "code": "res-pois/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_resist_pois_bytime",
+  "*Tooltip": "Poison Resist +#% (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "216": {
+  "code": "abs-cold/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_absorb_cold_bytime",
+  "*Tooltip": "Absorbs Cold Damage (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "217": {
+  "code": "abs-fire/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_absorb_fire_bytime",
+  "*Tooltip": "Absorbs Fire Damage (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "218": {
+  "code": "abs-ltng/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_absorb_ltng_bytime",
+  "*Tooltip": "Absorbs Lightning Damage (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "219": {
+  "code": "abs-pois/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_absorb_pois_bytime",
+  "*Tooltip": "Absorbs Poison Damage (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "220": {
+  "code": "gold%/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_find_gold_bytime",
+  "*Tooltip": "#% Extra Gold from Monsters (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "221": {
+  "code": "mag%/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_find_magic_bytime",
+  "*Tooltip": "#% Better Chance of Getting Magic Items (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "222": {
+  "code": "regen-stam/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_regenstamina_bytime",
+  "*Tooltip": "Heal Stamina Plus #% (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "223": {
+  "code": "stam/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_stamina_bytime",
+  "*Tooltip": "+# Maximum Stamina (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "224": {
+  "code": "dmg-dem/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_damage_demon_bytime",
+  "*Tooltip": "+#% Damage to Demons (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "225": {
+  "code": "dmg-und/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_damage_undead_bytime",
+  "*Tooltip": "+#% Damage to Undead (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "226": {
+  "code": "att-dem/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_tohit_demon_bytime",
+  "*Tooltip": "+# to Attack Rating against Demons (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "227": {
+  "code": "att-und/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_tohit_undead_bytime",
+  "*Tooltip": "+# to Attack Rating against Undead (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "228": {
+  "code": "crush/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_crushingblow_bytime",
+  "*Tooltip": "#% Chance of Crushing Blow (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "229": {
+  "code": "wounds/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_openwounds_bytime",
+  "*Tooltip": "#% Chance of Open Wounds (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "230": {
+  "code": "kick/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_kick_damage_bytime",
+  "*Tooltip": "+# Kick Damage (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "231": {
+  "code": "deadly/time",
+  "*Enabled": 1,
+  "func1": 18,
+  "stat1": "item_deadlystrike_bytime",
+  "*Tooltip": "#% Deadly Strike (Increases near [Day/Dusk/Night/Dawn])",
+  "*Parameter": "Time Period for Max value",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "*Notes": "\"(0=Day, 1=Dusk, 2=Night, 3=Dawn) Min value starts at opposite Time Period (Linear Increase) Currently Not Being Used\"",
+  "expansion": 1
+ },
+ "232": {
+  "code": "gems%/time",
+  "expansion": 1
+ },
+ "233": {
+  "code": "pierce-fire",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "passive_fire_pierce",
+  "*Tooltip": "-#% to Enemy Fire Resistance",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1
+ },
+ "234": {
+  "code": "pierce-ltng",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "passive_ltng_pierce",
+  "*Tooltip": "-#% to Enemy Lightning Resistance",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1
+ },
+ "235": {
+  "code": "pierce-cold",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "passive_cold_pierce",
+  "*Tooltip": "-#% to Enemy Cold Resistance",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1
+ },
+ "236": {
+  "code": "pierce-pois",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "passive_pois_pierce",
+  "*Tooltip": "-#% to Enemy Poison Resistance",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1
+ },
+ "237": {
+  "code": "dmg-mon",
+  "expansion": 1
+ },
+ "238": {
+  "code": "dmg%-mon",
+  "expansion": 1
+ },
+ "239": {
+  "code": "att-mon",
+  "expansion": 1
+ },
+ "240": {
+  "code": "att%-mon",
+  "expansion": 1
+ },
+ "241": {
+  "code": "ac-mon",
+  "expansion": 1
+ },
+ "242": {
+  "code": "ac%-mon",
+  "expansion": 1
+ },
+ "243": {
+  "code": "indestruct",
+  "*Enabled": 1,
+  "func1": 20,
+  "*Tooltip": "Indestructible",
+  "*Min": 1,
+  "*Max": 1,
+  "expansion": 1
+ },
+ "244": {
+  "code": "charged",
+  "*Enabled": 1,
+  "func1": 19,
+  "stat1": "item_charged_skill",
+  "*Tooltip": "Level # [Skill] (#/# Charges)",
+  "*Parameter": "Skill",
+  "*Min": "# of Max Charges",
+  "*Max": "Skill Level",
+  "expansion": 1
+ },
+ "245": {
+  "code": "extra-fire",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "passive_fire_mastery",
+  "*Tooltip": "+#% to Fire Skill Damage",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1
+ },
+ "246": {
+  "code": "extra-ltng",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "passive_ltng_mastery",
+  "*Tooltip": "+#% to Lightning Skill Damage",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1
+ },
+ "247": {
+  "code": "extra-cold",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "passive_cold_mastery",
+  "*Tooltip": "+#% to Cold Skill Damage",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1
+ },
+ "248": {
+  "code": "extra-pois",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "passive_pois_mastery",
+  "*Tooltip": "+#% to Poison Skill Damage",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1
+ },
+ "249": {
+  "code": "dmg-elem",
+  "*Enabled": 1,
+  "func1": 15,
+  "stat1": "firemindam",
+  "func2": 16,
+  "stat2": "firemaxdam",
+  "func3": 15,
+  "stat3": "lightmindam",
+  "func4": 16,
+  "stat4": "lightmaxdam",
+  "func5": 15,
+  "stat5": "coldmindam",
+  "func6": 16,
+  "stat6": "coldmaxdam",
+  "func7": 17,
+  "stat7": "coldlength",
+  "*Tooltip": "Adds #-# Fire/Lightning/Cold Damage",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "expansion": 1
+ },
+ "250": {
+  "code": "dmg-elem-min",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "firemindam",
+  "func2": 3,
+  "stat2": "lightmindam",
+  "func3": 3,
+  "stat3": "coldmindam",
+  "*Tooltip": "+# to Minimum Fire/Lightning/Cold Damage",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "Currently Not Used",
+  "expansion": 1
+ },
+ "251": {
+  "code": "dmg-elem-max",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "firemaxdam",
+  "func2": 3,
+  "stat2": "lightmaxdam",
+  "func3": 3,
+  "stat3": "coldmaxdam",
+  "func4": 17,
+  "stat4": "coldlength",
+  "*Tooltip": "+# to Maximum Fire/Lightning/Cold Damage",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "Currently Not Used",
+  "expansion": 1
+ },
+ "252": {
+  "code": "all-stats",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "strength",
+  "func2": 3,
+  "stat2": "energy",
+  "func3": 3,
+  "stat3": "dexterity",
+  "func4": 3,
+  "stat4": "vitality",
+  "*Tooltip": "+# to all Attributes",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "expansion": 1
+ },
+ "253": {
+  "code": "addxp",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_addexperience",
+  "*Tooltip": "+#% to Experience Gained",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1
+ },
+ "254": {
+  "code": "heal-kill",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_healafterkill",
+  "*Tooltip": "+# Life after each Kill",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "expansion": 1
+ },
+ "255": {
+  "code": "cheap",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_reducedprices",
+  "*Tooltip": "Reduces all Vendor Prices #%",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1
+ },
+ "256": {
+  "code": "rip",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_restinpeace",
+  "*Tooltip": "Slain Monsters Rest in Peace",
+  "*Min": 1,
+  "*Max": 1,
+  "expansion": 1
+ },
+ "257": {
+  "code": "att-mon%",
+  "*Enabled": 1,
+  "func1": 24,
+  "stat1": "attack_vs_montype",
+  "*Tooltip": "#% to Attack Rating versus [Monster Type]",
+  "*Parameter": "monstats.txt MonType",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "Currently Not Used",
+  "expansion": 1
+ },
+ "258": {
+  "code": "dmg-mon%",
+  "*Enabled": 1,
+  "func1": 24,
+  "stat1": "damage_vs_montype",
+  "*Tooltip": "#% to Damage versus [Monster Type]",
+  "*Parameter": "monstats.txt MonType",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "Currently Not Used",
+  "expansion": 1
+ },
+ "259": {
+  "code": "kill-skill",
+  "*Enabled": 1,
+  "func1": 11,
+  "stat1": "item_skillonkill",
+  "*Tooltip": "#% Chance to cast level # [Skill] when you Kill an Enemy",
+  "*Parameter": "Skill",
+  "*Min": "\"% Chance (If 0, then default to 5)\"",
+  "*Max": "Skill Level",
+  "expansion": 1
+ },
+ "260": {
+  "code": "death-skill",
+  "*Enabled": 1,
+  "func1": 11,
+  "stat1": "item_skillondeath",
+  "*Tooltip": "#% Chance to cast level # [Skill] when you Die",
+  "*Parameter": "Skill",
+  "*Min": "\"% Chance (If 0, then default to 5)\"",
+  "*Max": "Skill Level",
+  "expansion": 1
+ },
+ "261": {
+  "code": "levelup-skill",
+  "*Enabled": 1,
+  "func1": 11,
+  "stat1": "item_skillonlevelup",
+  "*Tooltip": "#% Chance to cast level # [Skill] when you Level-Up",
+  "*Parameter": "Skill",
+  "*Min": "\"% Chance (If 0, then default to 5)\"",
+  "*Max": "Skill Level",
+  "expansion": 1
+ },
+ "262": {
+  "code": "skill-rand",
+  "*Enabled": 1,
+  "func1": 12,
+  "stat1": "item_singleskill",
+  "*Tooltip": "+# to [Skill] ([Class] only)",
+  "*Parameter": "Skill Level",
+  "*Min": "Min Skill ID",
+  "*Max": "Max Skill ID",
+  "expansion": 1
+ },
+ "263": {
+  "code": "fade",
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "fade",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "*Notes": "Visuals Only",
+  "expansion": 1
+ },
+ "264": {
+  "code": "levelreq",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_levelreq",
+  "*Tooltip": "Required Level: #",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "expansion": 1
+ },
+ "265": {
+  "code": "ethereal",
+  "*Enabled": 1,
+  "func1": 23,
+  "*Tooltip": "Ethereal",
+  "*Min": 1,
+  "*Max": 1,
+  "expansion": 1
+ },
+ "266": {
+  "code": "oskill",
+  "*Enabled": 1,
+  "func1": 22,
+  "stat1": "item_nonclassskill",
+  "*Tooltip": "+# to [Skill]",
+  "*Parameter": "Skill",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "expansion": 1
+ },
+ "267": {
+  "code": "state",
+  "*Enabled": 1,
+  "func1": 24,
+  "stat1": "state",
+  "*Parameter": "State",
+  "*Min": 1,
+  "*Max": 1,
+  "*Notes": "Applies a State on the unit",
+  "expansion": 1
+ },
+ "268": {
+  "code": "randclassskill",
+  "*Enabled": 1,
+  "func1": 36,
+  "stat1": "item_addclassskills",
+  "val1": 3,
+  "*Tooltip": "+# to [Class] Skill Levels",
+  "*Min": "Min Class ID",
+  "*Max": "Max Class ID",
+  "*Notes": "val1 = # of Skill levels",
+  "expansion": 1
+ }
+}
